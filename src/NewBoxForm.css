@@ -1,0 +1,36 @@
+.NewBoxForm {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin: 1rem;
+}
+
+input {
+  margin: .5rem 0;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.add-btn {
+  line-height: 2;
+  width: max-content;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  margin: 0 auto;
+  border: none;
+  box-shadow: .2rem .2rem .1rem rgba(0,0,0,.2);
+  transition: all .2s;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+
+.add-btn:active {
+  transform: translateY(1px);
+}
+
+.add-btn:focus {
+  outline: none;
+}
